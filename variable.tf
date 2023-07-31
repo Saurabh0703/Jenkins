@@ -6,22 +6,18 @@ variable "ingressports" {
   default = [8080]
 }
 variable "tag_name" {
-  description = "Name tag value for the instance"
+  description = "Name tag value for the resource"
   type        = string
-  default     = "Jenkins"
 }
 variable "tag_environment" {
-  description = "Name tag value for the instance"
+  description = "Environment tag value for the resource"
   type        = string
-  default     = "uat"
 }
 variable "tag_project" {
-  description = "Name tag value for the instance"
+  description = "project tag value for the resource"
   type        = string
-  default     = "vr-core"
 }
 variable "tag_owner" {
-  description = "Name tag value for the instance"
+  description = "owner tag value for the resource"
   type        = string
-  default     = "saurabh.joshi@tothenew.com"
 }
